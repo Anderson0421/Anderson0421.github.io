@@ -222,7 +222,7 @@ input{
     display: none;
     justify-content: center;
     align-items: center;
-    z-index:var(--z-modal);
+    z-index:var(--z-fixed);
 }
 .nav__close{
     font-size: 1.5rem;
