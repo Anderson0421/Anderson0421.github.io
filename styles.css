@@ -222,6 +222,7 @@ input{
     display: none;
     justify-content: center;
     align-items: center;
+    z-index:var(--z-modal);
 }
 .nav__close{
     font-size: 1.5rem;
@@ -230,6 +231,7 @@ input{
     right: 1.25rem;
     cursor: pointer;
     display: none;
+    z-index: 1200;
 }
     /*  ACTIVE LINKS */
 .nav__link.active-link, .nav__link:hover{
@@ -945,6 +947,7 @@ textarea.input{
     pointer-events: none;
     z-index: 1000;
     transition: .3s;
+    z-index: 999;
 }
 .input__container.textarea label{
     top: 1rem;
